@@ -1,0 +1,25 @@
+Studio 7:12 PM 4/18/2022
+C:\Users\h19sl\Documents\2javaProjects\java-practice\Ch4ClassesJava\studioCh4ClassesJava\restaurant
+
+
+
+4.8.1
+
+public  Menu (String item1, String item2) {
+
+}
+
+public MenuItem (double price, String description, String category){
+
+}
+
+
+
+2eWeCouldJustsayUpdateMenuINSTEADofEveryTImeASKitemDOTisNewMethodBecauseByDefaultEveryTImeANItemIsAddedItISNewByDefaultWeUSethePrivateMetodisNewToCalculateThatEveryItem30DaysOldNeedsToBeChanged
+
+E:\LessImp\1qLimiscJava2022Apr\lecture\3lec2022dapr18ClsCh4\smallGroup4ChClsLec3\studio
+
+
+2fIDisSetWhenWeCreateOurObjectAndMightNotNeedItAgainAtAllButWeCOuldGetAndSetIDifWeWantedToItISPossibleToUseJustGetters
+
+

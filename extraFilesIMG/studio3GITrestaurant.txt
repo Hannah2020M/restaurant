@@ -1,0 +1,90 @@
+studio3GITrestaurant
+stored in C:\Users\h19sl\Documents\2javaProjects\java-practice\Ch4ClassesJava\src\restaurant\extraFilesIMG
+
+
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~
+$ cd Documents
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ cd 2javaProjects
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects (main)
+$ cd java-practice
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice (master)
+$ ls
+Ch1setupJava/  Ch4ClassesJava/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice (master)
+$ cd Ch4ClassesJava
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava (master)
+$ ls
+out/  src/  studioCh4ClassesJava/  untitled104.iml
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava (master)
+$ cd src
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src (master)
+$ ls
+StudentData/  com/  restaurant/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src (master)
+$ cd restaurant
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ ls
+Main.java  Menu.java  MenuItems.java
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Main.java
+        Menu.java
+        MenuItems.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git commit -m"initial commit"
+[master (root-commit) 8b06446] initial commit
+ 3 files changed, 39 insertions(+)
+ create mode 100644 Main.java
+ create mode 100644 Menu.java
+ create mode 100644 MenuItems.java
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git remote add origin https://github.com/Hannah2020M/restaurant.git
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 732 bytes | 732.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hannah2020M/restaurant.git
+ * [new branch]      master -> master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/java-practice/Ch4ClassesJava/src/restaurant (master)
+$
